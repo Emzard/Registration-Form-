@@ -1,13 +1,30 @@
 * {
-    padding : 0;
-    margin : 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background : white;
-    color : black;
+  background-image: url(images/bg-intro-desktop.png);
+  background-color: #ff7978;
 }
 
-p {
-	font-family: georgian;
-	}
+main {
+  display: flex;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+input {
+  padding: 1em;
+  margin: 8px;
+}
+
+.form {
+  background-color: white;
+}
+
+.div1 {
+  color: #ffffff;
+  text-align: left;
+}
