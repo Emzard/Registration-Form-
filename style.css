@@ -6,25 +6,66 @@
 body {
   background-image: url(images/bg-intro-desktop.png);
   background-color: #ff7978;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 6em;
 }
 
 main {
   display: flex;
-  text-align: center;
-  width: 50%;
-  margin: auto;
+  width: 100%;
 }
 
 input {
-  padding: 1em;
-  margin: 8px;
+  padding: 12px;
+  margin: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
 }
 
+em {
+  color: #d3cbff;
+  font-weight: light;
+}
+
+.para {
+  background-color: #5d54a3;
+  color: white;
+  margin: 8px;
+  padding: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
 .form {
+  text-align: center;
   background-color: white;
+  border-radius: 2%;
+  align-self: center;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .div1 {
   color: #ffffff;
   text-align: left;
+  align-self: center;
+  margin: 9em;
+  width: 46%;
+}
+
+.button {
+  background-color: #37cc8a;
+  color: white;
+  border: #ffffff;
+  padding: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: #fc8383;
 }
